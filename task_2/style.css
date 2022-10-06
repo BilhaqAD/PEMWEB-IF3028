@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Poppins", sans-serif; 
+}
+
+.header{
+    background-color: #fff;
+    color: #000;
+}
+
+.header h2{
+    padding-right: 2rem;
+}
+
+.header h3{
+    font-weight: 600;
+}
+
+.navbar{
+    display: grid;
+	place-items: center;
+	height: 10vh;
+    background-color: #f0984c;
+    width: 100%;
+}
+
+.navbar ul {
+	display: flex;
+	list-style: none;
+}
+
+.navbar ul li a {
+	text-decoration: none;
+	font-size: 2rem;
+	text-transform: uppercase;
+	margin: 0 25px;
+	color: #ffffff;
+	font-family: 'Poppins', sans-serif; 
+	position: relative;
+}
+
+.navbar ul li a:after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 3px;
+	background-color: #ffffff;
+	bottom: 0;
+	left: 0;
+	transform: scaleX(0);
+	transform-origin: bottom right;
+	transition: transform 0.25s linear;
+}
+
+.navbar ul li a:hover::after {
+	transform-origin: bottom left;
+	transform: scaleX(1);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container table{
+    text-align: center;
+    margin-inline: 25%;
+    width: 50%;
+    
+} p{
+    text-align: center;
+} 
+
+.container table img{
+    width: 75%;
+    border-radius: 20px;
+    padding: 4px;
+    margin: auto;
+    display: block;
+}
+
+td {
+    border: solid 5px #000;
+    width: auto;
+    padding-bottom: 8px;
+}
+
+button {
+    border: none;
+    padding: 1rem 2rem;
+    color: #000000;
+    background-color: #f0984c;
+    border-radius: 50%;
+}
+
+button:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.box{
+    border: solid 5px #000;
+    width: 400px;
+    padding-bottom: 8px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    align-self: center;
+    text-align: center;
+}
+
+.footer{
+    background-color: #f0984c;
+    padding: 10px;
+    margin-top: 5rem;
+    text-align: center;
+} .footer a {
+    color: #000000;
+    text-decoration: none;
+}
