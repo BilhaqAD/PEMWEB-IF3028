@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tugas 3 Pemweb - DOM</title>
+    </head>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        img{
+            width: 200px;
+            height: 200px;
+        }
+        </style>
+<body>
+    <section id="profile-wrapper">
+        <div class="foto">
+            <img src="#">
+        </div>
+        <div class="bio">
+            <h1 id="nama">Anonymous</h1>
+            <h1 id="job">Hacker</h1>
+            <p id="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur voluptatum consequuntur nesciunt. Aspernatur, beatae. Dicta architecto at hic unde, voluptatem, laboriosam facere mollitia incidunt nobis quibusdam, rem repellat voluptate dolore?</p>
+        </div>
+    </section>
+    
+    <section id="experience-wrapper">
+        <div class="list-experience">
+            <h1>My Experience</h1>
+            <ul id="experience">
+                <!-- <li>Detail Experience</li>> -->
+            </ul>
+            <div class="adding-experience">
+                <input id="input-experience" type="text" placeholder="Tambahkan Pengalaman">
+                <button id="input" onclick="addExperience()">Add</button>
+            </div>
+        </div>
+    </section>
+    
+    <section id="button-wrapper">
+        <button class="btn" id="mybtn">Text</button>
+        <button class="btn" id="mybtn1">Photo</button>
+        <button class="btn" id="mybtn2">Beautify</button>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
