@@ -15,7 +15,8 @@ function addExperience() {
 
     const experienceName = inputElement.value; // Mengambil input
 
-    if(!experienceName) return alert('Input kosong, silahkan di isi!'); // Pengecekan Data input
+    if(!experienceName) 
+        return alert('Input kosong, silahkan di isi!'); // Pengecekan Data input
 
     const el = document.createElement('li'); // Tambah data pada list.
     el.innerText = experienceName;
